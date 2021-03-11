@@ -1,0 +1,31 @@
+.nav{
+    height: 100vh;
+    width: 100vw;
+    background-color:lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_wrapper{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_wrapperHolder{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.nav_wrapper > button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: white;
+    cursor: pointer;
+    border: 0px;
+    box-shadow:  0 5px 7px -7px rgba(0,0,0.5);
+    transition: transform 100ms ease-out;
+   
+}
